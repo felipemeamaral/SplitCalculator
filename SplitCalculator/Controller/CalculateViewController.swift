@@ -12,7 +12,6 @@ class CalculateViewController: UIViewController {
 	var tip: Int = 0
 	var bill: Float = 0
 	var split: Int = 0
-
 	var calculator = CalculatorBrain()
 
 	@IBOutlet weak var billTextField: UITextField!
@@ -28,7 +27,7 @@ class CalculateViewController: UIViewController {
 
 	@IBAction func calculateButtonPressed(_ sender: UIButton) {
 		bill = NSString(string: billTextField.text ?? "0").floatValue
-		calculator.calculate(bill: bill, tip: tip, split: Int(splitStepper.value))
+		calculator.calculate(bill: bill, tip: tip, split: split)
 		bill = calculator.getBill()
 	}
 
