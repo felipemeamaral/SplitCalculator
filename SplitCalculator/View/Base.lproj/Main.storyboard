@@ -184,7 +184,7 @@
                                                 </subviews>
                                             </stackView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sdI-11-UkS" userLabel="calculateButton">
-                                                <rect key="frame" x="50" y="246" width="314" height="45"/>
+                                                <rect key="frame" x="50" y="606" width="314" height="45"/>
                                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="45" id="8lq-qb-GKj"/>
@@ -208,11 +208,11 @@
                                             <constraint firstItem="ZS5-PT-qeh" firstAttribute="top" secondItem="DBK-U9-vxf" secondAttribute="bottom" constant="20" id="Idg-BZ-9i8"/>
                                             <constraint firstItem="cz7-Ly-pfs" firstAttribute="leading" secondItem="VeA-fT-ML2" secondAttribute="leading" constant="50" id="Im0-Lx-8FT"/>
                                             <constraint firstItem="cz7-Ly-pfs" firstAttribute="top" secondItem="ZS5-PT-qeh" secondAttribute="bottom" constant="25" id="MpB-mB-py4"/>
-                                            <constraint firstItem="sdI-11-UkS" firstAttribute="top" secondItem="VeA-fT-ML2" secondAttribute="top" constant="246" id="PqG-xh-wgI"/>
+                                            <constraint firstItem="sdI-11-UkS" firstAttribute="top" secondItem="VeA-fT-ML2" secondAttribute="top" constant="606" id="PqG-xh-wgI"/>
                                             <constraint firstItem="lWV-aw-QBV" firstAttribute="leading" secondItem="cz7-Ly-pfs" secondAttribute="trailing" constant="-139" id="W31-6S-5cV"/>
                                             <constraint firstItem="n4l-gC-eXr" firstAttribute="leading" secondItem="cz7-Ly-pfs" secondAttribute="trailing" constant="-130" id="cil-Gt-HEM"/>
                                             <constraint firstAttribute="trailing" secondItem="ZS5-PT-qeh" secondAttribute="trailing" constant="20" id="jL3-df-gNk"/>
-                                            <constraint firstItem="sdI-11-UkS" firstAttribute="top" secondItem="n4l-gC-eXr" secondAttribute="bottom" constant="30" id="jed-5P-Gic"/>
+                                            <constraint firstItem="sdI-11-UkS" firstAttribute="top" secondItem="n4l-gC-eXr" secondAttribute="bottom" constant="390" id="jed-5P-Gic"/>
                                             <constraint firstItem="DBK-U9-vxf" firstAttribute="top" secondItem="VeA-fT-ML2" secondAttribute="top" constant="20" symbolic="YES" id="o8F-39-haL"/>
                                             <constraint firstAttribute="trailing" secondItem="sdI-11-UkS" secondAttribute="trailing" constant="50" id="qDX-FH-aF5"/>
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="DBK-U9-vxf" secondAttribute="trailing" constant="20" symbolic="YES" id="tId-Vc-kc3"/>
@@ -253,7 +253,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137.68115942028987" y="133.92857142857142"/>
+            <point key="canvasLocation" x="203" y="134"/>
         </scene>
         <!--Result View Controller-->
         <scene sceneID="kkf-5v-93C">
@@ -273,7 +273,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lP3-Yl-SNK" userLabel="dismissButton">
-                                        <rect key="frame" x="50" y="131" width="314" height="45"/>
+                                        <rect key="frame" x="50" y="491" width="314" height="45"/>
                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="lP3-Yl-SNK" secondAttribute="height" multiplier="314:45" id="Kgb-4u-b4e"/>
@@ -294,9 +294,9 @@
                                     <constraint firstAttribute="trailing" secondItem="lP3-Yl-SNK" secondAttribute="trailing" constant="50" id="1FR-JM-f5L"/>
                                     <constraint firstItem="lP3-Yl-SNK" firstAttribute="leading" secondItem="lHb-0g-3Q1" secondAttribute="leading" constant="50" id="DyM-8L-OAa"/>
                                     <constraint firstItem="x5j-lE-Pu7" firstAttribute="leading" secondItem="lHb-0g-3Q1" secondAttribute="leading" constant="8" id="EdC-qX-T1C"/>
-                                    <constraint firstAttribute="bottom" secondItem="lP3-Yl-SNK" secondAttribute="bottom" constant="402" id="KcM-fo-sMn"/>
+                                    <constraint firstAttribute="bottom" secondItem="lP3-Yl-SNK" secondAttribute="bottom" constant="42" id="KcM-fo-sMn"/>
                                     <constraint firstItem="lP3-Yl-SNK" firstAttribute="leading" secondItem="lHb-0g-3Q1" secondAttribute="leading" constant="50" id="NRn-EZ-0jz"/>
-                                    <constraint firstAttribute="bottom" secondItem="lP3-Yl-SNK" secondAttribute="bottom" constant="402" id="WYI-f2-ZK9"/>
+                                    <constraint firstAttribute="bottom" secondItem="lP3-Yl-SNK" secondAttribute="bottom" constant="42" id="WYI-f2-ZK9"/>
                                     <constraint firstItem="x5j-lE-Pu7" firstAttribute="top" secondItem="lHb-0g-3Q1" secondAttribute="top" constant="20" symbolic="YES" id="hkX-iu-BGE"/>
                                     <constraint firstAttribute="trailing" secondItem="lP3-Yl-SNK" secondAttribute="trailing" constant="50" id="mGG-s3-ZOK"/>
                                 </constraints>

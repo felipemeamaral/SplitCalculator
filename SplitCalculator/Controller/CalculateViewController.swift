@@ -65,6 +65,7 @@ class CalculateViewController: UIViewController {
 			zeroPercentView.backgroundColor = .systemGreen
 			zeroPercentLabel.textColor = .white
 		}
+		billTextField.endEditing(true)
 	}
 
 	@IBAction func splitStepperValueChanged(_ sender: UIStepper) {
